@@ -1,0 +1,36 @@
+{
+  "name": "todo_list_backend",
+  "version": "1.0.0",
+  "description": "backend do app todo_list_react_native",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmployingDGC/todo_list_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmployingDGC/todo_list_backend/issues"
+  },
+  "homepage": "https://github.com/EmployingDGC/todo_list_backend#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "knex": "^0.21.16",
+    "moment": "^2.29.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
